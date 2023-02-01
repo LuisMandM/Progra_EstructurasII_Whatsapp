@@ -15,14 +15,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        //Ejemplos de prueba BORRAR
-        Contacto c_1 = new Contacto("Luis", "Medina", "luism&m@gmail.com");
-        Contacto c_2 = new Contacto("Olha", "Zahorna", "olhita@gmail.com");
-        Contacto c_3 = new Contacto("Nicolas", "Perez", "nicope@gmail.com");
-
-        contactos.put("5789", c_1);
-        contactos.put("1234", c_2);
-        contactos.put("7412", c_3);
         boolean running = true;
         do {
 
